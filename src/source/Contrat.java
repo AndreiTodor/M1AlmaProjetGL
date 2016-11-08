@@ -6,19 +6,9 @@ import java.util.HashSet;
  * Classe définissant un contrat
  */
 public class Contrat {
-	/**
-	 * Description of the property min.
-	 */
+
 	public Hour min = null;
-	
-	/**
-	 * Description of the property max.
-	 */
 	public Hour max = null;
-	
-	/**
-	 * Description of the property enseignants.
-	 */
 	public HashSet<Enseignant> enseignants = new HashSet<Enseignant>();
 	
 	/**

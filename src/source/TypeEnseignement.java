@@ -5,17 +5,17 @@ package source;
  */
 public enum TypeEnseignement {
     /**
-     * Description of CM.
+     * Cours magistraux.
      */
     CM,
     
     /**
-     * Description of TD.
+     * Travaux dirigés.
      */
     TD,
     
     /**
-     * Description of TP.
+     * Travaux pratiques.
      */
     TP,
 }

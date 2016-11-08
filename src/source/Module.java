@@ -5,9 +5,7 @@ import java.util.HashSet;
  * Classe définissant un module Module.
  */
 public class Module {
-	/**
-	 * Description of the property enseignements.
-	 */
+
 	public HashSet<Enseignement> enseignements = new HashSet<Enseignement>();
 	
 	/**

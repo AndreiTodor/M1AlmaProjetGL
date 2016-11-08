@@ -4,14 +4,8 @@ package source;
  * Classe abstraite définissant un intervention.
  */
 public abstract class Intervention {
-	/**
-	 * Description of the property service.
-	 */
+
 	public Service service = null;
-	
-	/**
-	 * Description of the property volume.
-	 */
 	public String volume = "";
 	
 	/**

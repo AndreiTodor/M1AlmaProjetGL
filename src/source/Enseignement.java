@@ -5,19 +5,9 @@ import java.util.HashSet;
  * Classe définissant un enseignement.
  */
 public abstract class Enseignement {
-	/**
-	 * Description of the property voeux.
-	 */
+
 	public HashSet<Voeu> voeux = new HashSet<Voeu>();
-	
-	/**
-	 * Description of the property type.
-	 */
 	public TypeEnseignement type = null;
-	
-	/**
-	 * Description of the property volume.
-	 */
 	public Hour volume = null;
 	
 	/**

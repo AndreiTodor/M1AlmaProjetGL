@@ -5,19 +5,9 @@ import java.util.HashSet;
  * Classe définissant un departement.
  */
 public class Departement {
-	/**
-	 * Description of the property enseignants.
-	 */
+	
 	public HashSet<Enseignant> enseignants = new HashSet<Enseignant>();
-	
-	/**
-	 * Description of the property parcourss.
-	 */
 	public HashSet<Parcours> parcourss = new HashSet<Parcours>();
-	
-	/**
-	 * Description of the property nom.
-	 */
 	public String nom = "";
 	
 	/**

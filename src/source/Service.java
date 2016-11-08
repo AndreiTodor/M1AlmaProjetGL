@@ -5,24 +5,9 @@ import java.util.HashSet;
  * Classe définissant un service.
  */
 public class Service {
-	/**
-	 * Description of the property annee.
-	 */
 	public Integer annee = Integer.valueOf(0);
-	
-	/**
-	 * Description of the property interventions.
-	 */
 	public HashSet<Intervention> interventions = new HashSet<Intervention>();
-	
-	/**
-	 * Description of the property enseignants.
-	 */
 	public HashSet<Enseignant> enseignants = new HashSet<Enseignant>();
-	
-	/**
-	 * Description of the property volume.
-	 */
 	public Integer volume = Integer.valueOf(0);
 	
 	/**

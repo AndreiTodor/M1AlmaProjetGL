@@ -4,9 +4,6 @@ package source;
  * Classe définissant une intervention au departement.
  */
 public class InterventionAuDepartement extends Intervention {
-	/**
-	 * Description of the property voeu.
-	 */
 	public Voeu voeu = null;
 	
 	/**

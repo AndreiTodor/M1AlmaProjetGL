@@ -5,34 +5,12 @@ import java.util.HashSet;
  * Classe définissant un enseignant.
  */
 public class Enseignant {
-	/**
-	 * Description of the property statut.
-	 */
+	
 	public String statut = "";
-	
-	/**
-	 * Description of the property demandes.
-	 */
 	public HashSet<Demande> demandes = new HashSet<Demande>();
-	
-	/**
-	 * Description of the property prenom.
-	 */
 	public String prenom = "";
-	
-	/**
-	 * Description of the property contrat.
-	 */
 	public Contrat contrat = null;
-	
-	/**
-	 * Description of the property nom.
-	 */
 	public String nom = "";
-	
-	/**
-	 * Description of the property services.
-	 */
 	public HashSet<Service> services = new HashSet<Service>();
 	
 	/**

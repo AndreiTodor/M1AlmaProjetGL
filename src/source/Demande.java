@@ -4,19 +4,9 @@ package source;
  * Classe définissant une demande
  */
 public abstract class Demande {
-	/**
-	 * Description of the property enseignant.
-	 */
+	
 	public Enseignant enseignant = null;
-	
-	/**
-	 * Description of the property heures.
-	 */
 	public Hour heures = null;
-	
-	/**
-	 * Description of the property published©.
-	 */
 	public Boolean published = Boolean.FALSE;
 	
 	/**

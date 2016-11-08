@@ -4,9 +4,7 @@ package source;
  * Classe définissant une demande d'intervention extérieure
  */
 public class DemandeInterventionExterieure extends Demande {
-	/**
-	 * Description of the property organisation.
-	 */
+
 	public String organisation = "";
 	
 	/**
