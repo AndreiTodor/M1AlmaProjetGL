@@ -2,7 +2,7 @@ package source;
 import java.util.HashSet;
 
 /**
- * Classe définissant un enseignant.
+ * Classe dï¿½finissant un enseignant.
  */
 public class Enseignant {
 
@@ -103,7 +103,7 @@ public class Enseignant {
 		return this.services;
 	}
 	
-	public void emettreDemandeSpéciale(){
+	public void emettreDemandeSpeciale(){
 			
 	}
 	public void emettreDemandeInterventionExterieur(){
