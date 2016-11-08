@@ -103,7 +103,7 @@ public class Enseignant {
 		return this.services;
 	}
 	
-	protected void emettreDemandeSpéciale(){
+	protected void emettreDemandeSpeciale(){
 			
 	}
 	protected void emettreDemandeInterventionExterieur(){
