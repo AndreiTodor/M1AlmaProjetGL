@@ -6,7 +6,7 @@ import java.util.HashSet;
  * Classe définissant un contrat
  */
 public class Contrat {
-
+	
 	public Hour min = null;
 	public Hour max = null;
 	public HashSet<Enseignant> enseignants = new HashSet<Enseignant>();

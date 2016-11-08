@@ -5,19 +5,22 @@ import java.util.HashSet;
  * Classe définissant un enseignant.
  */
 public class Enseignant {
+
+	public String prenom;
+	public String nom;
 	
-	public String statut = "";
+	public String statut;
+	public Contrat contrat;
+	
 	public HashSet<Demande> demandes = new HashSet<Demande>();
-	public String prenom = "";
-	public Contrat contrat = null;
-	public String nom = "";
 	public HashSet<Service> services = new HashSet<Service>();
 	
 	/**
 	 * The constructor.
 	 */
-	public Enseignant() {
-		super();
+	public Enseignant(String nom, String prenom) {
+		this.nom = nom;
+		this.prenom = prenom;
 	}
 	
 	/**
@@ -98,6 +101,16 @@ public class Enseignant {
 	 */
 	public HashSet<Service> getServices() {
 		return this.services;
+	}
+	
+	public void emettreDemandeSpéciale(){
+			
+	}
+	public void emettreDemandeInterventionExterieur(){
+			
+	}
+	public void emettreVoeu(){
+			
 	}
 
 
