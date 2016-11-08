@@ -2,7 +2,7 @@ package source;
 import java.util.HashSet;
 
 /**
- * Description of Departement.
+ * Classe définissant un departement.
  */
 public class Departement {
 	/**

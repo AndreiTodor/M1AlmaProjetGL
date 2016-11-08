@@ -1,7 +1,7 @@
 package source;
 
 /**
- * Description of Intervention Exterieure.
+ * Classe définissant une intervention exterieure.
  */
 public class InterventionExterieure extends Intervention {
 	/**

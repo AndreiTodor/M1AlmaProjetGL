@@ -3,7 +3,7 @@ import java.util.HashSet;
 
 
 /**
- * Description of Contrat.
+ * Classe définissant un contrat
  */
 public class Contrat {
 	/**

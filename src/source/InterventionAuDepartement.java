@@ -1,7 +1,7 @@
 package source;
 
 /**
- * Description of Intervention au Departement.
+ * Classe définissant une intervention au departement.
  */
 public class InterventionAuDepartement extends Intervention {
 	/**

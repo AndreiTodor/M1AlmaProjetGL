@@ -1,7 +1,7 @@
 package source;
 
 /**
- * Description of Type Enseignement.
+ * Classe définissant un type d'enseignement.
  */
 public enum TypeEnseignement {
     /**

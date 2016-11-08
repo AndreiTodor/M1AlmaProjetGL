@@ -1,7 +1,7 @@
 package source;
 
 /**
- * Description of Demande Speciale.
+ * Classe définissant une demande speciale.
  */
 public class DemandeSpeciale extends Demande {
 	

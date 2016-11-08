@@ -1,15 +1,8 @@
 package source;
 import java.util.HashSet;
 
-/*******************************************************************************
- * 2016, All rights reserved.
- *******************************************************************************/
-
-
 /**
- * Description of Enseignement.
- * 
- * @author andrei
+ * Classe définissant un enseignement.
  */
 public abstract class Enseignement {
 	/**

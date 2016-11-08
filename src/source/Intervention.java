@@ -1,9 +1,7 @@
 package source;
 
 /**
- * Description of Intervention.
- * 
- * @author andrei
+ * Classe abstraite définissant un intervention.
  */
 public abstract class Intervention {
 	/**

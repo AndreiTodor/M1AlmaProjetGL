@@ -2,9 +2,7 @@ package source;
 import java.util.HashSet;
 
 /**
- * Description of Parcours.
- * 
- * @author andrei
+ * Classe définissant un parcours.
  */
 public class Parcours {
 	/**

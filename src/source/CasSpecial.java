@@ -1,16 +1,12 @@
 package source;
-/*******************************************************************************
- * 2016, All rights reserved.
- *******************************************************************************/
-
 
 /**
- * Description of Cas Special.
+ * Classe définissant un cas spécial
  */
 public class CasSpecial extends Intervention {
 	
 	/**
-	 * The constructor.
+	 * Constructeur
 	 */
 	public CasSpecial() {
 		super();

@@ -2,7 +2,7 @@ package source;
 import java.util.HashSet;
 
 /**
- * Description of Module.
+ * Classe définissant un module Module.
  */
 public class Module {
 	/**

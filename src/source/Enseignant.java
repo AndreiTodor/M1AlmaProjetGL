@@ -2,7 +2,7 @@ package source;
 import java.util.HashSet;
 
 /**
- * Description of Enseignant.
+ * Classe définissant un enseignant.
  */
 public class Enseignant {
 	/**

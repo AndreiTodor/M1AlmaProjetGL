@@ -1,7 +1,7 @@
 package source;
 
 /**
- * Description of Demande.
+ * Classe définissant une demande
  */
 public abstract class Demande {
 	/**

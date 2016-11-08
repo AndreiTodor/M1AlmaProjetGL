@@ -2,9 +2,7 @@ package source;
 import java.util.HashSet;
 
 /**
- * Description of Service.
- * 
- * @author andrei
+ * Classe définissant un service.
  */
 public class Service {
 	/**

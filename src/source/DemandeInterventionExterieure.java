@@ -1,7 +1,7 @@
 package source;
 
 /**
- * Description of Demande Intervention Exterieure.
+ * Classe définissant une demande d'intervention extérieure
  */
 public class DemandeInterventionExterieure extends Demande {
 	/**

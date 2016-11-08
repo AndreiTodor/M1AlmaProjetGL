@@ -1,7 +1,8 @@
 package source;
 import java.util.HashSet;
+
 /**
- * Description of Voeu.
+ * Classe définissant un voeu.
  */
 public class Voeu extends Demande {
 	/**
