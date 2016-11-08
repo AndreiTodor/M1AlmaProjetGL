@@ -1,7 +1,7 @@
 package source;
 
 /**
- * Classe définissant un cas spécial
+ * Classe dï¿½finissant un cas spï¿½cial
  */
 public class CasSpecial extends Intervention {
 	
