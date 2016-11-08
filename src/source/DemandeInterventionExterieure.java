@@ -5,7 +5,7 @@ package source;
  */
 public class DemandeInterventionExterieure extends Demande {
 
-	public String organisation = "";
+	private String organisation = "";
 	
 	/**
 	 * The constructor.

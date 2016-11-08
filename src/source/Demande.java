@@ -5,15 +5,14 @@ package source;
  */
 public abstract class Demande {
 	
-	public Enseignant enseignant = null;
-	public Hour heures = null;
-	public Boolean published = Boolean.FALSE;
+	private Enseignant enseignant = null;
+	private Hour heures = null;
+	private Boolean published = Boolean.FALSE;
 	
 	/**
 	 * The constructor.
 	 */
 	public Demande() {
-		super();
 	}
 	
 	/**
@@ -28,7 +27,7 @@ public abstract class Demande {
 	 * Sets a value to attribute enseignant. 
 	 * @param newEnseignant 
 	 */
-	public void setEnseignant(Enseignant newEnseignant) {
+	protected void setEnseignant(Enseignant newEnseignant) {
 	    this.enseignant = newEnseignant;
 	}
 
@@ -44,7 +43,7 @@ public abstract class Demande {
 	 * Sets a value to attribute heures. 
 	 * @param newHeures 
 	 */
-	public void setHeures(Hour newHeures) {
+	protected void setHeures(Hour newHeures) {
 	    this.heures = newHeures;
 	}
 
@@ -60,7 +59,7 @@ public abstract class Demande {
 	 * Sets a value to attribute published. 
 	 * @param newPublished 
 	 */
-	public void setPublished(Boolean newPublished) {
+	protected void setPublished(Boolean newPublished) {
 	    this.published = newPublished;
 	}
 

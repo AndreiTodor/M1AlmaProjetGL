@@ -6,14 +6,14 @@ import java.util.HashSet;
  */
 public class Enseignant {
 
-	public String prenom;
-	public String nom;
+	private String prenom;
+	private String nom;
 	
-	public String statut;
-	public Contrat contrat;
+	private String statut;
+	private Contrat contrat;
 	
-	public HashSet<Demande> demandes = new HashSet<Demande>();
-	public HashSet<Service> services = new HashSet<Service>();
+	private HashSet<Demande> demandes = new HashSet<Demande>();
+	private HashSet<Service> services = new HashSet<Service>();
 	
 	/**
 	 * The constructor.
@@ -35,7 +35,7 @@ public class Enseignant {
 	 * Sets a value to attribute statut. 
 	 * @param newStatut 
 	 */
-	public void setStatut(String newStatut) {
+	protected void setStatut(String newStatut) {
 	    this.statut = newStatut;
 	}
 
@@ -59,7 +59,7 @@ public class Enseignant {
 	 * Sets a value to attribute prenom. 
 	 * @param newPrenom 
 	 */
-	public void setPrenom(String newPrenom) {
+	protected void setPrenom(String newPrenom) {
 	    this.prenom = newPrenom;
 	}
 
@@ -75,7 +75,7 @@ public class Enseignant {
 	 * Sets a value to attribute contrat. 
 	 * @param newContrat 
 	 */
-	public void setContrat(Contrat newContrat) {
+	protected void setContrat(Contrat newContrat) {
 	    this.contrat = newContrat;
 	}
 
@@ -91,7 +91,7 @@ public class Enseignant {
 	 * Sets a value to attribute nom. 
 	 * @param newNom 
 	 */
-	public void setNom(String newNom) {
+	protected void setNom(String newNom) {
 	    this.nom = newNom;
 	}
 
@@ -103,13 +103,13 @@ public class Enseignant {
 		return this.services;
 	}
 	
-	public void emettreDemandeSpéciale(){
+	protected void emettreDemandeSpéciale(){
 			
 	}
-	public void emettreDemandeInterventionExterieur(){
+	protected void emettreDemandeInterventionExterieur(){
 			
 	}
-	public void emettreVoeu(){
+	protected void emettreVoeu(){
 			
 	}
 

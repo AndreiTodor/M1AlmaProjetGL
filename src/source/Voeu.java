@@ -5,9 +5,9 @@ import java.util.HashSet;
  * Classe définissant un voeu.
  */
 public class Voeu extends Demande {
-	public HashSet<InterventionAuDepartement> interventionAuDepartements = new HashSet<InterventionAuDepartement>();
-	public Integer preference = Integer.valueOf(0);
-	public Enseignement enseignement = null;
+	private HashSet<InterventionAuDepartement> interventionAuDepartements = new HashSet<InterventionAuDepartement>();
+	private Integer preference = Integer.valueOf(0);
+	private Enseignement enseignement = null;
 	
 	/**
 	 * The constructor.
