@@ -25,9 +25,9 @@ public abstract class Demande {
 	public Hour heures = null;
 	
 	/**
-	 * Description of the property publié.
+	 * Description of the property published�.
 	 */
-	public Boolean publié = Boolean.FALSE;
+	public Boolean published = Boolean.FALSE;
 	
 	// Start of user code (user defined attributes for Demande)
 	
@@ -81,16 +81,16 @@ public abstract class Demande {
 	 * Returns publié.
 	 * @return publié 
 	 */
-	public Boolean getPublié() {
-		return this.publié;
+	public Boolean getPublished() {
+		return this.published;
 	}
 	
 	/**
 	 * Sets a value to attribute publié. 
 	 * @param newPublié 
 	 */
-	public void setPublié(Boolean newPublié) {
-	    this.publié = newPublié;
+	public void setPublished(Boolean newPublished) {
+	    this.published = newPublished;
 	}
 
 
