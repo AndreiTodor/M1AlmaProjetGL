@@ -17,7 +17,7 @@ public class Voeu extends Demande {
 	/**
 	 * Description of the property enseignement.
 	 */
-	public Enseignement enseignement = null;e
+	public Enseignement enseignement = null;
 	
 	/**
 	 * The constructor.
