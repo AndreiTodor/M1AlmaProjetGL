@@ -1,19 +1,8 @@
 package source;
 import java.util.HashSet;
 
-/*******************************************************************************
- * 2016, All rights reserved.
- *******************************************************************************/
-
-
-// Start of user code (user defined imports)
-
-// End of user code
-
 /**
  * Description of Enseignant.
- * 
- * @author andrei
  */
 public class Enseignant {
 	/**
@@ -46,22 +35,13 @@ public class Enseignant {
 	 */
 	public HashSet<Service> services = new HashSet<Service>();
 	
-	// Start of user code (user defined attributes for Enseignant)
-	
-	// End of user code
-	
 	/**
 	 * The constructor.
 	 */
 	public Enseignant() {
-		// Start of user code constructor for Enseignant)
 		super();
-		// End of user code
 	}
 	
-	// Start of user code (user defined methods for Enseignant)
-	
-	// End of user code
 	/**
 	 * Returns statut.
 	 * @return statut 

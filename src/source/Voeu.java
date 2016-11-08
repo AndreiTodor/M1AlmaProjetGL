@@ -1,19 +1,7 @@
 package source;
 import java.util.HashSet;
-
-/*******************************************************************************
- * 2016, All rights reserved.
- *******************************************************************************/
-
-
-// Start of user code (user defined imports)
-
-// End of user code
-
 /**
  * Description of Voeu.
- * 
- * @author andrei
  */
 public class Voeu extends Demande {
 	/**
@@ -29,24 +17,15 @@ public class Voeu extends Demande {
 	/**
 	 * Description of the property enseignement.
 	 */
-	public Enseignement enseignement = null;
-	
-	// Start of user code (user defined attributes for Voeu)
-	
-	// End of user code
+	public Enseignement enseignement = null;e
 	
 	/**
 	 * The constructor.
 	 */
 	public Voeu() {
-		// Start of user code constructor for Voeu)
 		super();
-		// End of user code
 	}
 	
-	// Start of user code (user defined methods for Voeu)
-	
-	// End of user code
 	/**
 	 * Returns intervention au Departements.
 	 * @return intervention au Departements 

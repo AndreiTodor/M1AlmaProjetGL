@@ -1,15 +1,6 @@
 package source;
 import java.util.HashSet;
 
-/*******************************************************************************
- * 2016, All rights reserved.
- *******************************************************************************/
-
-
-// Start of user code (user defined imports)
-
-// End of user code
-
 /**
  * Description of Service.
  * 
@@ -36,22 +27,13 @@ public class Service {
 	 */
 	public Integer volume = Integer.valueOf(0);
 	
-	// Start of user code (user defined attributes for Service)
-	
-	// End of user code
-	
 	/**
 	 * The constructor.
 	 */
 	public Service() {
-		// Start of user code constructor for Service)
 		super();
-		// End of user code
 	}
 	
-	// Start of user code (user defined methods for Service)
-	
-	// End of user code
 	/**
 	 * Returns annee.
 	 * @return annee 

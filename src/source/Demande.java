@@ -1,17 +1,7 @@
 package source;
-/*******************************************************************************
- * 2016, All rights reserved.
- *******************************************************************************/
-
-
-// Start of user code (user defined imports)
-
-// End of user code
 
 /**
  * Description of Demande.
- * 
- * @author andrei
  */
 public abstract class Demande {
 	/**
@@ -29,22 +19,13 @@ public abstract class Demande {
 	 */
 	public Boolean published = Boolean.FALSE;
 	
-	// Start of user code (user defined attributes for Demande)
-	
-	// End of user code
-	
 	/**
 	 * The constructor.
 	 */
 	public Demande() {
-		// Start of user code constructor for Demande)
 		super();
-		// End of user code
 	}
 	
-	// Start of user code (user defined methods for Demande)
-	
-	// End of user code
 	/**
 	 * Returns enseignant.
 	 * @return enseignant 
@@ -78,16 +59,16 @@ public abstract class Demande {
 	}
 
 	/**
-	 * Returns publié.
-	 * @return publié 
+	 * Returns published
+	 * @return published
 	 */
 	public Boolean getPublished() {
 		return this.published;
 	}
 	
 	/**
-	 * Sets a value to attribute publié. 
-	 * @param newPublié 
+	 * Sets a value to attribute published. 
+	 * @param newPublished 
 	 */
 	public void setPublished(Boolean newPublished) {
 	    this.published = newPublished;

@@ -1,19 +1,9 @@
 package source;
 import java.util.HashSet;
 
-/*******************************************************************************
- * 2016, All rights reserved.
- *******************************************************************************/
-
-
-// Start of user code (user defined imports)
-
-// End of user code
 
 /**
  * Description of Contrat.
- * 
- * @author andrei
  */
 public class Contrat {
 	/**
@@ -31,22 +21,13 @@ public class Contrat {
 	 */
 	public HashSet<Enseignant> enseignants = new HashSet<Enseignant>();
 	
-	// Start of user code (user defined attributes for Contrat)
-	
-	// End of user code
-	
 	/**
 	 * The constructor.
 	 */
 	public Contrat() {
-		// Start of user code constructor for Contrat)
 		super();
-		// End of user code
 	}
 	
-	// Start of user code (user defined methods for Contrat)
-	
-	// End of user code
 	/**
 	 * Returns min.
 	 * @return min 

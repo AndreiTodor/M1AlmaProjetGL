@@ -1,12 +1,4 @@
 package source;
-/*******************************************************************************
- * 2016, All rights reserved.
- *******************************************************************************/
-
-
-// Start of user code (user defined imports)
-
-// End of user code
 
 /**
  * Description of Intervention.
@@ -24,22 +16,13 @@ public abstract class Intervention {
 	 */
 	public String volume = "";
 	
-	// Start of user code (user defined attributes for Intervention)
-	
-	// End of user code
-	
 	/**
 	 * The constructor.
 	 */
 	public Intervention() {
-		// Start of user code constructor for Intervention)
 		super();
-		// End of user code
 	}
 	
-	// Start of user code (user defined methods for Intervention)
-	
-	// End of user code
 	/**
 	 * Returns service.
 	 * @return service 

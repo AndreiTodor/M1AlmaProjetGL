@@ -1,19 +1,8 @@
 package source;
 import java.util.HashSet;
 
-/*******************************************************************************
- * 2016, All rights reserved.
- *******************************************************************************/
-
-
-// Start of user code (user defined imports)
-
-// End of user code
-
 /**
  * Description of Departement.
- * 
- * @author andrei
  */
 public class Departement {
 	/**
@@ -31,22 +20,13 @@ public class Departement {
 	 */
 	public String nom = "";
 	
-	// Start of user code (user defined attributes for Departement)
-	
-	// End of user code
-	
 	/**
 	 * The constructor.
 	 */
 	public Departement() {
-		// Start of user code constructor for Departement)
 		super();
-		// End of user code
 	}
 	
-	// Start of user code (user defined methods for Departement)
-	
-	// End of user code
 	/**
 	 * Returns enseignants.
 	 * @return enseignants 

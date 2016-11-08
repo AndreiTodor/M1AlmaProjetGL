@@ -6,10 +6,6 @@ import java.util.HashSet;
  *******************************************************************************/
 
 
-// Start of user code (user defined imports)
-
-// End of user code
-
 /**
  * Description of Enseignement.
  * 
@@ -31,22 +27,13 @@ public abstract class Enseignement {
 	 */
 	public Hour volume = null;
 	
-	// Start of user code (user defined attributes for Enseignement)
-	
-	// End of user code
-	
 	/**
 	 * The constructor.
 	 */
 	public Enseignement() {
-		// Start of user code constructor for Enseignement)
 		super();
-		// End of user code
 	}
 	
-	// Start of user code (user defined methods for Enseignement)
-	
-	// End of user code
 	/**
 	 * Returns voeux.
 	 * @return voeux 
