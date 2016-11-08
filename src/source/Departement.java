@@ -5,7 +5,7 @@ import java.util.HashSet;
  * Classe définissant un departement.
  */
 public class Departement {
-	
+	public Enseignant responsable;
 	public HashSet<Enseignant> enseignants = new HashSet<Enseignant>();
 	public HashSet<Parcours> parcourss = new HashSet<Parcours>();
 	public String nom = "";
@@ -49,6 +49,21 @@ public class Departement {
 	    this.nom = newNom;
 	}
 
+	/**
+	 * Returns responsable.
+	 * @return responsable 
+	 */
+	public Enseignant getResponsable() {
+		return this.responsable;
+	}
+	
+	/**
+	 * Sets a value to attribute nom. 
+	 * @param newNom 
+	 */
+	public void setResponsable(Enseignant newResponsable) {
+	    this.responsable = newResponsable;
+	}
 
 
 }
