@@ -2,19 +2,20 @@ package source;
 import java.util.HashSet;
 
 /**
- * Classe définissant un departement.
+ * Classe dï¿½finissant un departement.
  */
 public class Departement {
-	public Enseignant responsable;
-	public HashSet<Enseignant> enseignants = new HashSet<Enseignant>();
-	public HashSet<Parcours> parcourss = new HashSet<Parcours>();
-	public String nom = "";
+	private Enseignant responsable;
+	private HashSet<Enseignant> enseignants = new HashSet<Enseignant>();
+	private HashSet<Parcours> parcours = new HashSet<Parcours>();
+	private String nom;
 	
 	/**
 	 * The constructor.
 	 */
-	public Departement() {
-		super();
+	public Departement(Enseignant responsable, String nom) {
+		this.responsable = responsable;
+		this.nom = nom;
 	}
 	
 	/**
@@ -30,7 +31,7 @@ public class Departement {
 	 * @return parcourss 
 	 */
 	public HashSet<Parcours> getParcourss() {
-		return this.parcourss;
+		return this.parcours;
 	}
 
 	/**
@@ -64,6 +65,21 @@ public class Departement {
 	public void setResponsable(Enseignant newResponsable) {
 	    this.responsable = newResponsable;
 	}
-
+	
+	/**
+	 * Ajout d'un nouveau enseignant
+	 * @param enseignant
+	 */
+	public void addEnseignant(Enseignant enseignant){
+		this.enseignants.add(enseignant);
+	}
+	
+	/**
+	 * Ajout d'un nouveau Parcours
+	 * @param parcours
+	 */
+	public void addParcours(Parcours parcours){
+		this.parcours.add(parcours);
+	}
 
 }
