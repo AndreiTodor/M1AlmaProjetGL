@@ -10,8 +10,9 @@ public class DemandeInterventionExterieure extends Demande {
 	/**
 	 * The constructor.
 	 */
-	public DemandeInterventionExterieure() {
-		super();
+	public DemandeInterventionExterieure(Enseignant e, Hour h, String org) {
+		super(e, h);
+		this.organisation = org;
 	}
 	
 	/**
@@ -26,7 +27,7 @@ public class DemandeInterventionExterieure extends Demande {
 	 * Sets a value to attribute organisation. 
 	 * @param newOrganisation 
 	 */
-	public void setOrganisation(String newOrganisation) {
+	protected void setOrganisation(String newOrganisation) {
 	    this.organisation = newOrganisation;
 	}
 

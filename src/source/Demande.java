@@ -12,7 +12,9 @@ public abstract class Demande {
 	/**
 	 * The constructor.
 	 */
-	public Demande() {
+	public Demande(Enseignant enseignant, Hour heures) {
+		this.enseignant = enseignant;
+		this.heures = heures;
 	}
 	
 	/**
@@ -61,6 +63,9 @@ public abstract class Demande {
 	 */
 	protected void setPublished(Boolean newPublished) {
 	    this.published = newPublished;
+	}
+	protected void publish(){
+		this.published = true;
 	}
 
 

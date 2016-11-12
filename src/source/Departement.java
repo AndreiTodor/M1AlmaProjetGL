@@ -2,10 +2,10 @@ package source;
 import java.util.HashSet;
 
 /**
- * Classe d�finissant un departement.
+ * Classe definissant un departement.
  */
 public class Departement {
-	private Enseignant responsable;
+	private ChefDepartement responsable;
 	private HashSet<Enseignant> enseignants = new HashSet<Enseignant>();
 	private HashSet<Parcours> parcours = new HashSet<Parcours>();
 	private String nom;
@@ -13,7 +13,7 @@ public class Departement {
 	/**
 	 * The constructor.
 	 */
-	public Departement(Enseignant responsable, String nom) {
+	public Departement(ChefDepartement responsable, String nom) {
 		this.responsable = responsable;
 		this.nom = nom;
 	}
@@ -62,7 +62,7 @@ public class Departement {
 	 * Sets a value to attribute nom. 
 	 * @param newNom 
 	 */
-	public void setResponsable(Enseignant newResponsable) {
+	public void setResponsable(ChefDepartement newResponsable) {
 	    this.responsable = newResponsable;
 	}
 	

@@ -8,8 +8,8 @@ public class DemandeSpeciale extends Demande {
 	/**
 	 * The constructor.
 	 */
-	public DemandeSpeciale() {
-		super();
+	public DemandeSpeciale(Enseignant e, Hour h) {
+		super(e, h);
 	}
 
 
