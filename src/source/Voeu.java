@@ -12,8 +12,10 @@ public class Voeu extends Demande {
 	/**
 	 * The constructor.
 	 */
-	public Voeu() {
-		super();
+	public Voeu(Enseignant e, Hour h, int pref, Enseignement ens) {
+		super(e, h);
+		this.preference = pref;
+		this.enseignement = ens;
 	}
 	
 	/**
@@ -22,6 +24,10 @@ public class Voeu extends Demande {
 	 */
 	public HashSet<InterventionAuDepartement> getInterventionAuDepartements() {
 		return this.interventionAuDepartements;
+	}
+	
+	protected void addIntervention(InterventionAuDepartement intervention){
+		this.interventionAuDepartements.add(intervention);
 	}
 
 	/**
@@ -36,7 +42,7 @@ public class Voeu extends Demande {
 	 * Sets a value to attribute preference. 
 	 * @param newPreference 
 	 */
-	public void setPreference(Integer newPreference) {
+	protected void setPreference(Integer newPreference) {
 	    this.preference = newPreference;
 	}
 
@@ -52,7 +58,7 @@ public class Voeu extends Demande {
 	 * Sets a value to attribute enseignement. 
 	 * @param newEnseignement 
 	 */
-	public void setEnseignement(Enseignement newEnseignement) {
+	protected void setEnseignement(Enseignement newEnseignement) {
 	    this.enseignement = newEnseignement;
 	}
 

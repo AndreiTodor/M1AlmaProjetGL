@@ -46,7 +46,26 @@ public class Enseignant {
 	public HashSet<Demande> getDemandes() {
 		return this.demandes;
 	}
+	protected void addDemande(Demande demande){
+		this.demandes.add(demande);
+	}
 
+	protected void emettreDemandeSpeciale(Enseignant e, Hour h){
+		this.addDemande(new DemandeSpeciale(e, h));
+	}
+	protected void emettreDemandeInterventionExterieur(Enseignant e, Hour h, String org){
+		this.addDemande(new DemandeInterventionExterieure(e, h, org));
+	}
+	protected void emettreVoeu(Enseignant e, Hour h, int pref, Enseignement ens){
+		this.addDemande(new Voeu(e, h, pref, ens));
+	}
+	
+	protected void publierSouhaits(){
+		for (Demande demande : demandes) {
+			demande.publish();
+		}
+	}
+	
 	/**
 	 * Returns prenom.
 	 * @return prenom 
@@ -103,16 +122,4 @@ public class Enseignant {
 		return this.services;
 	}
 	
-	protected void emettreDemandeSpeciale(){
-			
-	}
-	protected void emettreDemandeInterventionExterieur(){
-			
-	}
-	protected void emettreVoeu(){
-			
-	}
-
-
-
 }
