@@ -1,7 +1,7 @@
-package source;
+package utils;
 
 /**
- * Classe définissant une intervention au departement.
+ * Classe dï¿½finissant une intervention au departement.
  */
 public class InterventionAuDepartement extends Intervention {
 	public Voeu voeu = null;

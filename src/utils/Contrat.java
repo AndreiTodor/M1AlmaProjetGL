@@ -1,9 +1,9 @@
-package source;
+package utils;
 import java.util.HashSet;
 
 
 /**
- * Classe définissant un contrat
+ * Classe dï¿½finissant un contrat
  */
 public class Contrat {
 	

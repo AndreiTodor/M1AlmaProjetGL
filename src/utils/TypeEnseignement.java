@@ -1,7 +1,7 @@
-package source;
+package utils;
 
 /**
- * Classe définissant un type d'enseignement.
+ * Classe dï¿½finissant un type d'enseignement.
  */
 public enum TypeEnseignement {
     /**
@@ -10,7 +10,7 @@ public enum TypeEnseignement {
     CM,
     
     /**
-     * Travaux dirigés.
+     * Travaux dirigï¿½s.
      */
     TD,
     

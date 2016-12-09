@@ -1,4 +1,4 @@
-package source;
+package utils;
 
 public class ChefDepartement extends Enseignant {
 	private Departement departement;

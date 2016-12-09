@@ -1,7 +1,7 @@
-package source;
+package utils;
 
 /**
- * Classe définissant une intervention exterieure.
+ * Classe dï¿½finissant une intervention exterieure.
  */
 public class InterventionExterieure extends Intervention {
 	/**

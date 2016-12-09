@@ -1,7 +1,7 @@
-package source;
+package utils;
 
 /**
- * Classe définissant une demande
+ * Classe dï¿½finissant une demande
  */
 public abstract class Demande {
 	

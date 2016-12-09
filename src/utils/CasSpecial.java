@@ -1,4 +1,4 @@
-package source;
+package utils;
 
 /**
  * Classe d�finissant un cas sp�cial

@@ -1,8 +1,8 @@
-package source;
+package utils;
 import java.util.HashSet;
 
 /**
- * Classe définissant un service.
+ * Classe dï¿½finissant un service.
  */
 public class Service {
 	public Integer annee = Integer.valueOf(0);

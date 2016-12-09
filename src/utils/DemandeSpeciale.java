@@ -1,7 +1,7 @@
-package source;
+package utils;
 
 /**
- * Classe définissant une demande speciale.
+ * Classe dï¿½finissant une demande speciale.
  */
 public class DemandeSpeciale extends Demande {
 	

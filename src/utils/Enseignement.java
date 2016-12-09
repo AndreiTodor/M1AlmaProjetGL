@@ -1,8 +1,8 @@
-package source;
+package utils;
 import java.util.HashSet;
 
 /**
- * Classe définissant un enseignement.
+ * Classe dï¿½finissant un enseignement.
  */
 public abstract class Enseignement {
 

@@ -1,7 +1,7 @@
-package source;
+package utils;
 
 /**
- * Classe définissant une demande d'intervention extérieure
+ * Classe dï¿½finissant une demande d'intervention extï¿½rieure
  */
 public class DemandeInterventionExterieure extends Demande {
 

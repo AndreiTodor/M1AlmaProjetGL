@@ -1,8 +1,8 @@
-package source;
+package utils;
 import java.util.HashSet;
 
 /**
- * Classe définissant un voeu.
+ * Classe dï¿½finissant un voeu.
  */
 public class Voeu extends Demande {
 	private HashSet<InterventionAuDepartement> interventionAuDepartements = new HashSet<InterventionAuDepartement>();
