@@ -336,22 +336,34 @@
       <ownedParameter xmi:id="_053wwsQrEeaFo9NprPyAfw" name="ens" type="_06cYgMQrEeaFo9NprPyAfw"/>
       <ownedParameter xmi:id="_053ww8QrEeaFo9NprPyAfw" name="m" type="_06ATocQrEeaFo9NprPyAfw"/>
       <ownedParameter xmi:id="_053wxMQrEeaFo9NprPyAfw" name="e" type="_06HoYMQrEeaFo9NprPyAfw"/>
-      <ownedParameter xmi:id="_053wxcQrEeaFo9NprPyAfw" name="h"/>
-      <ownedParameter xmi:id="_053wxsQrEeaFo9NprPyAfw" name="p"/>
+      <ownedParameter xmi:id="_053wxcQrEeaFo9NprPyAfw" name="h">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_053wxsQrEeaFo9NprPyAfw" name="p">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
     </ownedOperation>
     <ownedOperation xmi:id="_053wx8QrEeaFo9NprPyAfw" name="emettreDemExt">
       <ownedParameter xmi:id="_053wyMQrEeaFo9NprPyAfw" name="ens" type="_06cYgMQrEeaFo9NprPyAfw"/>
-      <ownedParameter xmi:id="_053wycQrEeaFo9NprPyAfw" name="org"/>
-      <ownedParameter xmi:id="_053wysQrEeaFo9NprPyAfw" name="vol"/>
+      <ownedParameter xmi:id="_053wycQrEeaFo9NprPyAfw" name="org">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_053wysQrEeaFo9NprPyAfw" name="vol">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
     </ownedOperation>
     <ownedOperation xmi:id="_053wy8QrEeaFo9NprPyAfw" name="emettreDemSpec">
       <ownedParameter xmi:id="_053wzMQrEeaFo9NprPyAfw" name="ens" type="_06cYgMQrEeaFo9NprPyAfw"/>
-      <ownedParameter xmi:id="_053wzcQrEeaFo9NprPyAfw" name="t"/>
-      <ownedParameter xmi:id="_053wzsQrEeaFo9NprPyAfw" name="vol"/>
+      <ownedParameter xmi:id="_053wzcQrEeaFo9NprPyAfw" name="t">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_053wzsQrEeaFo9NprPyAfw" name="vol">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
     </ownedOperation>
     <ownedOperation xmi:id="_053wz8QrEeaFo9NprPyAfw" name="afficherDemandes"/>
     <ownedOperation xmi:id="_053w0MQrEeaFo9NprPyAfw" name="selectionnerSouhaits">
-      <ownedParameter xmi:id="_053w0cQrEeaFo9NprPyAfw" name="liste">
+      <ownedParameter xmi:id="_053w0cQrEeaFo9NprPyAfw" name="liste" type="_zMBC8LuHEeaAqMmpBBQwRQ">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_053w0sQrEeaFo9NprPyAfw">
           <name xsi:nil="true"/>
         </lowerValue>
@@ -423,6 +435,12 @@
   </packagedElement>
   <packagedElement xmi:type="uml:Usage" xmi:id="_L3mQwMQsEeaFo9NprPyAfw" client="_06jtQMQrEeaFo9NprPyAfw" supplier="_06cYgMQrEeaFo9NprPyAfw"/>
   <packagedElement xmi:type="uml:Usage" xmi:id="_NSrusMQsEeaFo9NprPyAfw" client="_06jtQMQrEeaFo9NprPyAfw" supplier="_06HoYMQrEeaFo9NprPyAfw"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_GxRTUMQwEeaFo9NprPyAfw" name="ListDemande">
+    <ownedAttribute xmi:id="_GxRTUcQwEeaFo9NprPyAfw" name="demande" type="_dq6F4JW_EeaJndJbeEalTw" aggregation="composite">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GxRTUsQwEeaFo9NprPyAfw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GxRTU8QwEeaFo9NprPyAfw" value="*"/>
+    </ownedAttribute>
+  </packagedElement>
   <profileApplication xmi:id="_YTSW4JbxEeaVJtnna7ptvw">
     <eAnnotations xmi:id="_YTWoUJbxEeaVJtnna7ptvw" source="http://www.eclipse.org/uml2/2.0.0/UML">
       <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
