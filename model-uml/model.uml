@@ -461,6 +461,9 @@
   <packagedElement xmi:type="uml:Component" xmi:id="_2O9cwMaOEeaKdepFxRDEcg" name="Persistance E"/>
   <packagedElement xmi:type="uml:Component" xmi:id="_5y9vAMaOEeaKdepFxRDEcg" name="Persistance Dpt"/>
   <packagedElement xmi:type="uml:Node" xmi:id="_OVnvMMaZEeaKdepFxRDEcg" name="Enseignant">
+    <deployment xmi:id="_U_6qsMaeEeaKdepFxRDEcg" client="_OVnvMMaZEeaKdepFxRDEcg" supplier="_1Agu0MadEeaKdepFxRDEcg" deployedArtifact="_1Agu0MadEeaKdepFxRDEcg"/>
+    <deployment xmi:id="_VzbLQMaeEeaKdepFxRDEcg" client="_OVnvMMaZEeaKdepFxRDEcg" supplier="_3SFI0MadEeaKdepFxRDEcg" deployedArtifact="_3SFI0MadEeaKdepFxRDEcg"/>
+    <deployment xmi:id="_W1JuAMaeEeaKdepFxRDEcg" client="_OVnvMMaZEeaKdepFxRDEcg" supplier="_7Sg4YMadEeaKdepFxRDEcg" deployedArtifact="_7Sg4YMadEeaKdepFxRDEcg"/>
     <nestedNode xmi:id="_RvJPwMaZEeaKdepFxRDEcg" name="Java">
       <nestedClassifier xmi:type="uml:Node" xmi:id="_fvXpQMaZEeaKdepFxRDEcg" name="Spring"/>
       <nestedClassifier xmi:type="uml:Node" xmi:id="_msU0UMaZEeaKdepFxRDEcg" name="SpringData"/>
@@ -473,6 +476,7 @@
       <nestedClassifier xmi:type="uml:Node" xmi:id="_NEykAMaaEeaKdepFxRDEcg" name="Spring"/>
       <nestedClassifier xmi:type="uml:Node" xmi:id="_QBRjQMaaEeaKdepFxRDEcg" name="SpringData"/>
     </nestedClassifier>
+    <deployment xmi:id="_ZgAKsMaeEeaKdepFxRDEcg" client="_GnrWoMaaEeaKdepFxRDEcg" supplier="_E4cQ0MaeEeaKdepFxRDEcg" deployedArtifact="_E4cQ0MaeEeaKdepFxRDEcg"/>
     <nestedNode xmi:id="_GnrWocaaEeaKdepFxRDEcg" name="Java">
       <nestedClassifier xmi:type="uml:Node" xmi:id="_GnrWosaaEeaKdepFxRDEcg" name="Spring"/>
       <nestedClassifier xmi:type="uml:Node" xmi:id="_GnrWo8aaEeaKdepFxRDEcg" name="SpringData"/>
@@ -491,15 +495,7 @@
   <packagedElement xmi:type="uml:Artifact" xmi:id="_1Agu0MadEeaKdepFxRDEcg" name="Enseignant1"/>
   <packagedElement xmi:type="uml:Artifact" xmi:id="_3SFI0MadEeaKdepFxRDEcg" name="Enseignant2"/>
   <packagedElement xmi:type="uml:Artifact" xmi:id="_7Sg4YMadEeaKdepFxRDEcg" name="Enseignant3"/>
-  <packagedElement xmi:type="uml:Dependency" xmi:id="_96-vcMadEeaKdepFxRDEcg" name="deploy" client="_1Agu0MadEeaKdepFxRDEcg" supplier="_OVnvMMaZEeaKdepFxRDEcg">
-    <ownedComment xmi:id="_ROUBUMaeEeaKdepFxRDEcg" annotatedElement="_96-vcMadEeaKdepFxRDEcg">
-      <body>deploy</body>
-    </ownedComment>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Dependency" xmi:id="_-imwIMadEeaKdepFxRDEcg" client="_3SFI0MadEeaKdepFxRDEcg" supplier="_OVnvMMaZEeaKdepFxRDEcg"/>
-  <packagedElement xmi:type="uml:Dependency" xmi:id="__NjKkMadEeaKdepFxRDEcg" client="_7Sg4YMadEeaKdepFxRDEcg" supplier="_OVnvMMaZEeaKdepFxRDEcg"/>
   <packagedElement xmi:type="uml:Artifact" xmi:id="_E4cQ0MaeEeaKdepFxRDEcg" name="Département Informatique"/>
-  <packagedElement xmi:type="uml:Dependency" xmi:id="_MeRZwMaeEeaKdepFxRDEcg" client="_E4cQ0MaeEeaKdepFxRDEcg" supplier="_GnrWoMaaEeaKdepFxRDEcg"/>
   <profileApplication xmi:id="_YTSW4JbxEeaVJtnna7ptvw">
     <eAnnotations xmi:id="_YTWoUJbxEeaVJtnna7ptvw" source="http://www.eclipse.org/uml2/2.0.0/UML">
       <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
