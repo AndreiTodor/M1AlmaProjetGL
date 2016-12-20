@@ -5,17 +5,15 @@ import java.util.ArrayList;
 import utils.Demande;
 import utils.Enseignant;
 import utils.Enseignement;
+import utils.EnumCriteres;
 import utils.Module;
 import utils.Voeu;
 
 
-
 public class ActionsDPTtoGUIDPT implements IMetierDPTtoGUIDPT{
-
-	public ActionsDPTtoMGUIDPT(){}
 	
 
-	public void analyserLesDemandes(int annee, EnumCriteres coix){
+	public void analyserLesDemandes(int annee, EnumCriteres choix){
 
 
 
