@@ -120,7 +120,6 @@
     <generalization xmi:id="_8u_-oJllEeahA67C0Vl-eA" general="_q9puUJW_EeaJndJbeEalTw"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_JdfU4JXAEeaJndJbeEalTw" name="Voeu">
-    <generalization xmi:id="_XFjFAJXLEeaJndJbeEalTw" general="_dq6F4JW_EeaJndJbeEalTw"/>
     <ownedAttribute xmi:id="_cuP0YJlkEeahA67C0Vl-eA" name="preference" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_cuQbcJlkEeahA67C0Vl-eA"/>
@@ -496,6 +495,66 @@
   <packagedElement xmi:type="uml:Artifact" xmi:id="_3SFI0MadEeaKdepFxRDEcg" name="Enseignant2"/>
   <packagedElement xmi:type="uml:Artifact" xmi:id="_7Sg4YMadEeaKdepFxRDEcg" name="Enseignant3"/>
   <packagedElement xmi:type="uml:Artifact" xmi:id="_E4cQ0MaeEeaKdepFxRDEcg" name="Département Informatique"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_uWocgMa4Eea3W4UHrOtH1Q" name="IMetierDPTtoGUIDPT">
+    <interfaceRealization xmi:id="_P90ZEMa6Eea3W4UHrOtH1Q" client="_uWocgMa4Eea3W4UHrOtH1Q" supplier="_DhEkgMa6Eea3W4UHrOtH1Q" contract="_DhEkgMa6Eea3W4UHrOtH1Q"/>
+    <ownedOperation xmi:id="_Kg6g8Ma5Eea3W4UHrOtH1Q" name="affectationForcee">
+      <ownedParameter xmi:id="_MB4kcMa5Eea3W4UHrOtH1Q" name="voeu" type="_JdfU4JXAEeaJndJbeEalTw"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_5_iZUMa4Eea3W4UHrOtH1Q" name="selectionDemandesEtValidation">
+      <ownedParameter xmi:id="__voIoMa4Eea3W4UHrOtH1Q" name="list" type="_zMBC8LuHEeaAqMmpBBQwRQ"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_D4hQoMa5Eea3W4UHrOtH1Q" name="selectionDemandeEtAffection">
+      <ownedParameter xmi:id="_F5RAYMa5Eea3W4UHrOtH1Q" name="list" type="_zMBC8LuHEeaAqMmpBBQwRQ"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_yG5pIMa4Eea3W4UHrOtH1Q" name="analyserLesDemandes">
+      <ownedParameter xmi:id="_1thKgMa4Eea3W4UHrOtH1Q" name="annee">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_46m8IMa5Eea3W4UHrOtH1Q" name="choix" type="_uXaDIMa5Eea3W4UHrOtH1Q"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_uXaDIMa5Eea3W4UHrOtH1Q" name="EnumCriteres">
+    <ownedLiteral xmi:id="_xUBlQMa5Eea3W4UHrOtH1Q" name="Enseignant"/>
+    <ownedLiteral xmi:id="_zadGQMa5Eea3W4UHrOtH1Q" name="Enseignement"/>
+    <ownedLiteral xmi:id="_0Lp5sMa5Eea3W4UHrOtH1Q" name="Module"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_DhEkgMa6Eea3W4UHrOtH1Q" name="IMetierDPTtoGUIDPT">
+    <ownedOperation xmi:id="_TxVuAMa6Eea3W4UHrOtH1Q" name="affectationForcee">
+      <ownedParameter xmi:id="_TxVuAca6Eea3W4UHrOtH1Q" name="voeu" type="_JdfU4JXAEeaJndJbeEalTw"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_TxWVEMa6Eea3W4UHrOtH1Q" name="selectionDemandeEtAffection">
+      <ownedParameter xmi:id="_TxWVEca6Eea3W4UHrOtH1Q" name="list" type="_zMBC8LuHEeaAqMmpBBQwRQ"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_TxWVEsa6Eea3W4UHrOtH1Q" name="selectionDemandesEtValidation">
+      <ownedParameter xmi:id="_TxWVE8a6Eea3W4UHrOtH1Q" name="list" type="_zMBC8LuHEeaAqMmpBBQwRQ"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_TxWVFMa6Eea3W4UHrOtH1Q" name="analyserLesDemandes">
+      <ownedParameter xmi:id="_TxWVFca6Eea3W4UHrOtH1Q" name="annee">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_TxWVFsa6Eea3W4UHrOtH1Q" name="choix" type="_uXaDIMa5Eea3W4UHrOtH1Q"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_0RhbsMa6Eea3W4UHrOtH1Q" client="_uWocgMa4Eea3W4UHrOtH1Q" supplier="_uXaDIMa5Eea3W4UHrOtH1Q"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_1FpAQMa6Eea3W4UHrOtH1Q" client="_uWocgMa4Eea3W4UHrOtH1Q" supplier="_JdfU4JXAEeaJndJbeEalTw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_2OeQkMa6Eea3W4UHrOtH1Q" client="_uWocgMa4Eea3W4UHrOtH1Q" supplier="_dq6F4JW_EeaJndJbeEalTw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_90m7gMa6Eea3W4UHrOtH1Q" client="_uWocgMa4Eea3W4UHrOtH1Q" supplier="_GxRTUMQwEeaFo9NprPyAfw"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_lZCvEMa7Eea3W4UHrOtH1Q" name="IMetierDPTtoMetierEns">
+    <ownedOperation xmi:id="_6s68YMa7Eea3W4UHrOtH1Q" name="publierDemande">
+      <ownedParameter xmi:id="_6s68Yca7Eea3W4UHrOtH1Q" name="listEnAtt" type="_zMBC8LuHEeaAqMmpBBQwRQ"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_6s68Ysa7Eea3W4UHrOtH1Q" name="maJ"/>
+    <ownedOperation xmi:id="_6s68Y8a7Eea3W4UHrOtH1Q" name="testCo"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_1-2qwMa7Eea3W4UHrOtH1Q" name="MetierDPTtoMetierEns">
+    <ownedOperation xmi:id="_qATOEMa7Eea3W4UHrOtH1Q" name="maJ"/>
+    <ownedOperation xmi:id="_n-gVcMa7Eea3W4UHrOtH1Q" name="testCo"/>
+    <ownedOperation xmi:id="_q9ZIcMa7Eea3W4UHrOtH1Q" name="publierDemande">
+      <ownedParameter xmi:id="_wk3uUMa7Eea3W4UHrOtH1Q" name="listEnAtt" type="_zMBC8LuHEeaAqMmpBBQwRQ"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="__RO1EMa7Eea3W4UHrOtH1Q" client="_1-2qwMa7Eea3W4UHrOtH1Q" supplier="_lZCvEMa7Eea3W4UHrOtH1Q"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="__xaJ8Ma7Eea3W4UHrOtH1Q" client="_1-2qwMa7Eea3W4UHrOtH1Q" supplier="_zMBC8LuHEeaAqMmpBBQwRQ"/>
   <profileApplication xmi:id="_YTSW4JbxEeaVJtnna7ptvw">
     <eAnnotations xmi:id="_YTWoUJbxEeaVJtnna7ptvw" source="http://www.eclipse.org/uml2/2.0.0/UML">
       <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
