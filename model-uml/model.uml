@@ -549,7 +549,7 @@
   </packagedElement>
   <packagedElement xmi:type="uml:Usage" xmi:id="__RO1EMa7Eea3W4UHrOtH1Q" client="_1-2qwMa7Eea3W4UHrOtH1Q" supplier="_lZCvEMa7Eea3W4UHrOtH1Q"/>
   <packagedElement xmi:type="uml:Usage" xmi:id="__xaJ8Ma7Eea3W4UHrOtH1Q" client="_1-2qwMa7Eea3W4UHrOtH1Q" supplier="_zMBC8LuHEeaAqMmpBBQwRQ"/>
-  <packagedElement xmi:type="uml:Interface" xmi:id="_uS2WcMa9Eea3W4UHrOtH1Q" name="IPersistanceDpt">
+  <packagedElement xmi:type="uml:Interface" xmi:id="_uS2WcMa9Eea3W4UHrOtH1Q" name="IPersistanceDPT">
     <ownedOperation xmi:id="_uS2Wcca9Eea3W4UHrOtH1Q" name="ajoutVoeuxBase">
       <ownedComment xmi:id="_uS2Wcsa9Eea3W4UHrOtH1Q" annotatedElement="_uS2Wcca9Eea3W4UHrOtH1Q">
         <body>ajout un voeux dans une liste dans la persistance </body>
@@ -590,12 +590,6 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_uS2Wg8a9Eea3W4UHrOtH1Q"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_uS2WhMa9Eea3W4UHrOtH1Q" value="*"/>
       </ownedParameter>
-      <ownedParameter xmi:id="_uS2Whca9Eea3W4UHrOtH1Q" name="ens" type="_M-iWkJW8EeaJndJbeEalTw"/>
-      <ownedParameter xmi:id="_uS2Whsa9Eea3W4UHrOtH1Q" name="module" type="_exTYIJW9EeaJndJbeEalTw"/>
-      <ownedParameter xmi:id="_uS2Wh8a9Eea3W4UHrOtH1Q" name="vol">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
-      </ownedParameter>
-      <ownedParameter xmi:id="_uS2WiMa9Eea3W4UHrOtH1Q" name="enseign" type="_haHYAJW-EeaJndJbeEalTw"/>
     </ownedOperation>
     <ownedOperation xmi:id="_uS2Wica9Eea3W4UHrOtH1Q" name="majListeAttente">
       <ownedParameter xmi:id="_uS2Wisa9Eea3W4UHrOtH1Q" name="list" type="_zMBC8LuHEeaAqMmpBBQwRQ"/>
@@ -607,7 +601,104 @@
     <ownedOperation xmi:id="_gGkWkMbAEea3W4UHrOtH1Q" name="ajoutListePublie">
       <ownedParameter xmi:id="_nhSbsMbAEea3W4UHrOtH1Q" name="listAttente" type="_zMBC8LuHEeaAqMmpBBQwRQ"/>
     </ownedOperation>
+    <ownedOperation xmi:id="_8yy_kMbCEea3W4UHrOtH1Q" name="getListeDemande">
+      <ownedParameter xmi:id="_-jKxAMbCEea3W4UHrOtH1Q" name="annee">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_CbJvMMbDEea3W4UHrOtH1Q" name="choix" type="_uXaDIMa5Eea3W4UHrOtH1Q"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_LFpaIMbDEea3W4UHrOtH1Q" name="majListeInterventions">
+      <ownedParameter xmi:id="_NmtosMbDEea3W4UHrOtH1Q" name="status">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_RAxUwMbDEea3W4UHrOtH1Q" name="listInterventions"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_YA-gwMbGEea3W4UHrOtH1Q" name="checkAndMaj"/>
+    <ownedOperation xmi:id="_45ZvUMbGEea3W4UHrOtH1Q" name="majListeDemandeValidees">
+      <ownedParameter xmi:id="_7cR7wMbGEea3W4UHrOtH1Q" name="listDemandes" type="_GxRTUMQwEeaFo9NprPyAfw"/>
+    </ownedOperation>
   </packagedElement>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_f75QQMbDEea3W4UHrOtH1Q" name="ListIntervention">
+    <ownedAttribute xmi:id="_i3xLgMbDEea3W4UHrOtH1Q" name="intervetion" type="_q9puUJW_EeaJndJbeEalTw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_vQQyMMbDEea3W4UHrOtH1Q"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_vlpzYMbDEea3W4UHrOtH1Q" value="*"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_O61GgMbEEea3W4UHrOtH1Q" name="PersistanceDPT">
+    <interfaceRealization xmi:id="_wk-F4MbEEea3W4UHrOtH1Q" client="_O61GgMbEEea3W4UHrOtH1Q" supplier="_uS2WcMa9Eea3W4UHrOtH1Q" contract="_uS2WcMa9Eea3W4UHrOtH1Q"/>
+    <ownedOperation xmi:id="_KhC7cMbHEea3W4UHrOtH1Q" name="ajoutListePublie">
+      <ownedParameter xmi:id="_KhC7ccbHEea3W4UHrOtH1Q" name="listAttente" type="_zMBC8LuHEeaAqMmpBBQwRQ"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_KhC7csbHEea3W4UHrOtH1Q" name="ajoutDemExtBase">
+      <ownedComment xmi:id="_KhC7c8bHEea3W4UHrOtH1Q" annotatedElement="_KhC7csbHEea3W4UHrOtH1Q">
+        <body>ajout d'une demande exterieure dans la persistance, org = organisation</body>
+      </ownedComment>
+      <ownedParameter xmi:id="_KhC7dMbHEea3W4UHrOtH1Q" name="ens" type="_M-iWkJW8EeaJndJbeEalTw"/>
+      <ownedParameter xmi:id="_KhC7dcbHEea3W4UHrOtH1Q" name="org">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_KhC7dsbHEea3W4UHrOtH1Q" name="vol">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_KhC7d8bHEea3W4UHrOtH1Q" name="checkAndMaj"/>
+    <ownedOperation xmi:id="_KhC7eMbHEea3W4UHrOtH1Q" name="getDemandes">
+      <ownedParameter xmi:id="_KhC7ecbHEea3W4UHrOtH1Q" name="demandes" type="_zMBC8LuHEeaAqMmpBBQwRQ" direction="return">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_KhC7esbHEea3W4UHrOtH1Q"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_KhC7e8bHEea3W4UHrOtH1Q" value="*"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_KhC7gMbHEea3W4UHrOtH1Q" name="majListeDemandeValidees">
+      <ownedParameter xmi:id="_KhC7gcbHEea3W4UHrOtH1Q" name="listDemandes" type="_GxRTUMQwEeaFo9NprPyAfw"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_KhC7gsbHEea3W4UHrOtH1Q" name="getListeDemande">
+      <ownedParameter xmi:id="_KhC7g8bHEea3W4UHrOtH1Q" name="annee">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_KhC7hMbHEea3W4UHrOtH1Q" name="choix" type="_uXaDIMa5Eea3W4UHrOtH1Q"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_KhC7hcbHEea3W4UHrOtH1Q" name="majListeInterventions">
+      <ownedParameter xmi:id="_KhC7hsbHEea3W4UHrOtH1Q" name="status">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_KhC7h8bHEea3W4UHrOtH1Q" name="listInterventions"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_KhC7iMbHEea3W4UHrOtH1Q" name="ajoutDemSpecBase">
+      <ownedParameter xmi:id="_KhC7icbHEea3W4UHrOtH1Q" name="ens" type="_M-iWkJW8EeaJndJbeEalTw"/>
+      <ownedParameter xmi:id="_KhC7isbHEea3W4UHrOtH1Q" name="t">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_KhC7i8bHEea3W4UHrOtH1Q" name="vol">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_KhC7jMbHEea3W4UHrOtH1Q" name="moveEnAttenteToPublies"/>
+    <ownedOperation xmi:id="_KhC7jcbHEea3W4UHrOtH1Q" name="ajoutVoeuxBase">
+      <ownedComment xmi:id="_KhC7jsbHEea3W4UHrOtH1Q" annotatedElement="_KhC7jcbHEea3W4UHrOtH1Q">
+        <body>ajout un voeux dans une liste dans la persistance </body>
+      </ownedComment>
+      <ownedParameter xmi:id="_KhC7j8bHEea3W4UHrOtH1Q" name="enseignant" type="_M-iWkJW8EeaJndJbeEalTw"/>
+      <ownedParameter xmi:id="_KhC7kMbHEea3W4UHrOtH1Q" name="module" type="_exTYIJW9EeaJndJbeEalTw"/>
+      <ownedParameter xmi:id="_KhC7kcbHEea3W4UHrOtH1Q" name="e" type="_haHYAJW-EeaJndJbeEalTw"/>
+      <ownedParameter xmi:id="_KhC7ksbHEea3W4UHrOtH1Q" name="h">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_KhC7k8bHEea3W4UHrOtH1Q" name="p">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_KhC7lMbHEea3W4UHrOtH1Q" name="getListAttente">
+      <ownedParameter xmi:id="_KhC7lcbHEea3W4UHrOtH1Q" name="list" type="_zMBC8LuHEeaAqMmpBBQwRQ" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_KhC7lsbHEea3W4UHrOtH1Q" name="majListeAttente">
+      <ownedParameter xmi:id="_KhC7l8bHEea3W4UHrOtH1Q" name="list" type="_zMBC8LuHEeaAqMmpBBQwRQ"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_i9pUkMbEEea3W4UHrOtH1Q" client="_O61GgMbEEea3W4UHrOtH1Q" supplier="_dq6F4JW_EeaJndJbeEalTw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_klWSMMbEEea3W4UHrOtH1Q" client="_O61GgMbEEea3W4UHrOtH1Q" supplier="_GxRTUMQwEeaFo9NprPyAfw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_mYj8QMbEEea3W4UHrOtH1Q" client="_O61GgMbEEea3W4UHrOtH1Q" supplier="_uXaDIMa5Eea3W4UHrOtH1Q"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_ndm4wMbEEea3W4UHrOtH1Q" client="_O61GgMbEEea3W4UHrOtH1Q" supplier="_f75QQMbDEea3W4UHrOtH1Q"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_tM1FYMbEEea3W4UHrOtH1Q" client="_O61GgMbEEea3W4UHrOtH1Q" supplier="_q9puUJW_EeaJndJbeEalTw"/>
   <profileApplication xmi:id="_YTSW4JbxEeaVJtnna7ptvw">
     <eAnnotations xmi:id="_YTWoUJbxEeaVJtnna7ptvw" source="http://www.eclipse.org/uml2/2.0.0/UML">
       <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
